@@ -1,0 +1,19 @@
+input[type=submit]{
+    margin: 20px 0 20px 0;
+	height: 25px;
+	width: 300px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: purple;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+	/* padding: 2px; */
+}
+input[type=submit]:hover{
+    background-color: blue;
+	transition-duration: 0.5s;
+}

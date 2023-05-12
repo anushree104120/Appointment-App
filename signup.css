@@ -1,0 +1,104 @@
+.main{
+    display: grid;
+    height: 90vh;
+    place-items: center;
+    background-color: aliceblue;
+    width: 365px;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    margin: auto;
+    margin-top: 40px;
+}
+.main .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main .social_icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social_icons a{
+    display: block;
+    height: 50px;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+
+    border-radius: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.social_icons span{
+    margin: 5px;
+    font-size: 20px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social_icons a:first-child{
+    /* margin-right: 5px; */
+    background: purple;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_icons a:first-child:hover{
+    background: blue;
+}
+.social_icons a:last-child{
+
+    /* margin-right: 5px; */
+    background: purple;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_icons a:last-child:hover{
+    background: blue;
+}
+form{
+    margin-top: 25px;
+}
+form .input_box{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+
+}
+.input_box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+.input_box input:focus{
+    border-color: blue;
+}
+.input_box .icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: grey;
+    transform: translateY(-50%);
+
+}
+hr{
+    color: black;
+    font-weight: bolder;
+    width:200px ;
+}
+
+
+   
+

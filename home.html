@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./filter.js"></script>
+    <script src="clock.js"></script>
+   
+</head>
+<body>
+    <div class="div1">
+      <a href="home.html">𝕸𝖊𝖊𝖙 𝖀𝖕</a> 
+        <a href="login.html" class="io">Login</a>
+        <a href="signup.html" class="io">Sign up</a>
+       
+    </div>
+    <div class="div2">
+        <h2>Book a Counsellor</h2>
+    </div>
+    <div class="outer-wrapper">
+        <div class="table-wrapper">
+        <table id="emp-table" cellpadding="4" margin-left="4px" colspan="3" cellspacing="4" style="text-align: center;">
+            <thead>
+                <th col-index = 1>ID</th>
+                <th col-index = 2 >Name</th>
+                  
+    
+                <th col-index = 3>Area of expertise
+                    <select class="table-filter" onchange="filter_rows()">
+                        <option value="all">All</option>
+                    </select>
+                </th>
+                <th col-index = 4>Experience
+                    <select class="table-filter" onchange="filter_rows()">
+                        <option value="all">All</option>
+                    </select>
+                </th>
+                <th col-index = 5>Availability
+                    <select class="table-filter" onchange="filter_rows()">
+                        <option value="all">All</option>
+                    </select>
+                </th>
+                
+            </thead>
+            <tbody>
+                <tr class="t1">
+                    <td>1</td>
+                    <td>Sumit Mishra</td>
+                    <td>Full Stack</td>
+                    <td>10</td>
+                    <td>Mon-Wed</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+                <tr class="t1">
+                    <td>2</td>
+                    <td>Ashutosh Singh</td>
+                    <td>Cybersecurity</td>
+                    <td>5</td>
+                    <td>Thur-Fri</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+                <tr class="t1">
+                    <td>3</td>
+                    <td>Fatima Sheikh</td>
+                    <td>Cloud Computing</td>
+                    <td>3</td>
+                    <td>Mon</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+                <tr class="t1">
+                    <td>4</td>
+                    <td>Gargi Shukla</td>
+                    <td>AI/ML</td>
+                    <td>3</td>
+                    <td>Tues-Thur</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+                <tr class="t1">
+                    <td>5</td>
+                    <td>Ashish Gupta</td>
+                    <td>Data Science</td>
+                    <td>4</td>
+                    <td>Sat</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Rajesh Sahni</td>
+                    <td>Cloud Computing</td>
+                    <td>2</td>
+                    <td>Fri</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Seema Tripathi</td>
+                    <td>Full Stack</td>
+                    <td>3</td>
+                    <td>Mon-Wed</td>
+                    <td><input type="button" value="ADD" onclick="p()"></td>
+                </tr>
+              
+              
+                
+                
+    
+            </tbody>
+        </table>
+        
+        <script>
+           
+    
+            getUniqueValuesFromColumn()
+            
+        </script>
+      
+
+                
+            </script>
+        
+    </div>
+  
+</div> 
+<div id="personal" class="r" style="display: none;" >
+    <h2>Schdeule a time</h2>
+    <form action="pay.html">
+        <input type="datetime-local" id="date" required>
+        <br>
+        <input type="submit" value="Proceed to Pay">
+
+    </form>
+    
+       
+ 
+
+    
+    
+    
+</div>
+        
+
+
+    
+</body>
+</html>
